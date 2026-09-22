@@ -170,11 +170,11 @@
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Noto Serif Lao", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(100, 9);
+            this.label6.Location = new System.Drawing.Point(28, 23);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(140, 24);
             this.label6.TabIndex = 11;
-            this.label6.Text = "Add Employee";
+            this.label6.Text = "Add Employee:";
             // 
             // frmEmployeeDatabase
             // 
