@@ -23,10 +23,10 @@ namespace EmployeeApplication
         {
             Employee emp = new Employee(employeeID.Text, employeeFirstName.Text, employeeLastName.Text, employeePosition.Text);
 
-            dataGridView1.Rows.Add(emp.empId, emp.firstName, emp.lastName, emp.position);
+            dataGridView1.Rows.Add(emp.emp_id, emp.emp_firstName, emp.emp_lastName, emp.emp_position);
 
+            employeeID.Clear();
             employeeFirstName.Clear();
-            employeeLastName.Clear();
             employeeLastName.Clear();
             employeePosition.Clear();
         }

@@ -8,10 +8,10 @@ namespace EmployeeNamespace
 {
     public class Employee
     {
-        public string empId { get; set; }
-        public string firstName { get; set; }
-        public string lastName { get; set; }
-        public string position { get; set; }
+        private string empId;
+        private string firstName;
+        private string lastName;   
+        private string position;
 
         public Employee(string epmId, string firstName, string lastName, string position)
         {
@@ -19,6 +19,50 @@ namespace EmployeeNamespace
             this.firstName = firstName;
             this.lastName = lastName;
             this.position = position;
+        }
+
+        public string emp_id
+        {
+            get
+            {
+                return this.empId;
+            }
+            set
+            {
+                this.emp_id = value;
+            }
+        }
+        public string emp_firstName {
+            get
+            {
+                return this.firstName;
+            }
+            set   
+            { 
+                this.emp_firstName = value;
+            } 
+        }
+        public string emp_lastName { 
+            get 
+            {
+                return this.lastName;      
+            }
+            set
+            {
+                this.emp_lastName = value;
+            } 
+
+        }
+        public string emp_position 
+        { 
+            get
+            {
+                return this.position;
+            }
+            set
+            {
+                this.emp_position = value;
+            } 
         }
     }
 }
