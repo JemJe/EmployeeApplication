@@ -43,6 +43,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.submitBtn = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -166,12 +167,22 @@
             this.submitBtn.UseVisualStyleBackColor = false;
             this.submitBtn.Click += new System.EventHandler(this.submitBtn_Click);
             // 
+            // label6
+            // 
+            this.label6.Font = new System.Drawing.Font("Noto Serif Lao", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(100, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(140, 24);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Add Employee";
+            // 
             // frmEmployeeDatabase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Linen;
             this.ClientSize = new System.Drawing.Size(814, 382);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.submitBtn);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -210,6 +221,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Firstname;
         private System.Windows.Forms.DataGridViewTextBoxColumn Lastname;
         private System.Windows.Forms.DataGridViewTextBoxColumn Position;
+        private System.Windows.Forms.Label label6;
     }
 }
 
